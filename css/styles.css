@@ -73,6 +73,9 @@ section {
 .page-header .container {
   display: flex;
   align-items: center;
+}
+
+.page-header {
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
@@ -216,8 +219,6 @@ section {
 
 .futures-wrap .item-future {
   width: 264px;
-  padding-right: 0;
-  padding-left: 0;
   margin-right: 24px;
 }
 
@@ -230,7 +231,6 @@ section {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  width: 264px;
 }
 
 .list-future {
@@ -240,6 +240,10 @@ section {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+}
+
+.what-are-we-doing {
+  padding-top: 0;
 }
 
 .doing-wrap {
@@ -261,6 +265,11 @@ section {
   text-align: center;
 }
 
+.item-team:last-child {
+  margin-right: 0;
+}
+
+
 .section-team {
   background-color: #f4f4fd;
 }
@@ -275,6 +284,11 @@ section {
   color: var(--primary-text-color);
 }
 
+.team-title {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .section-title.centered {
   text-align: center;
 }
@@ -286,7 +300,6 @@ section {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   margin-bottom: 8px;
-  margin-top: 32px;
 }
 
 .text {
@@ -294,7 +307,6 @@ section {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
-  padding-bottom: 32px;
 }
 
 .footer {
@@ -304,21 +316,25 @@ section {
 }
 
 .footer-text {
-  padding-top: 16px;
+  width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #e7e9fc;
+  margin-top: 16px;
 }
 
 .logo-studio-footer {
   color: #f4f4fd;
 }
 
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 .btm-filters {
-  min-width: 69px;
   padding: 12px 24px;
-  display: inline-block;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
@@ -343,8 +359,6 @@ section {
 }
 
 .elements-title {
-  padding-left: 16px;
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 
@@ -353,13 +367,15 @@ section {
   width: 360px;
   margin-left: 0;
   margin-bottom: 48px;
-  padding-bottom: 32px;
   background: #ffffff;
-  border: 1px solid #e7e9fc;
 }
 
-.elements-text {
-  padding-left: 16px;
+.flex-title {
+border: 1px solid #e7e9fc;
+border-top: 0;
+padding-top: 32px;
+padding-bottom: 32px;
+padding-left: 16px;
 }
 
 .flex-elements .item:nth-child(3n) {
